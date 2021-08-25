@@ -3,6 +3,8 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 const {token} = require('./config.json');
 require('./lstools.js');
 const agent = require('./agent');
+const rank = require('./rank');
+
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -13,6 +15,9 @@ client.on('interactionCreate', async interaction => {
 
   if (interaction.commandName === 'agent') {
     agent.execute(interaction);
+  }
+  if (interaction.commandName === 'rank'){
+    rank.execute(interaction);
   }
 });
 
