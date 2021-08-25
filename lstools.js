@@ -4,7 +4,8 @@ const { Routes } = require('discord-api-types/v9');
 const { clientId, guildId, token } = require('./config.json');
 
 const commands = [
-	new SlashCommandBuilder().setName('agent').setDescription('Returns a random valorant agent')
+	new SlashCommandBuilder().setName('agent').setDescription('Returns a random valorant agent'),
+	new SlashCommandBuilder().setName('rank').setDescription('Rank?')
 ]
 	.map(command => command.toJSON());
 
