@@ -5,6 +5,7 @@ require('./lstools.js');
 const agent = require('./agent');
 const rank = require('./rank');
 const dynmap = require('./dynmap');
+const minecraft = require('./minecraft');
 
 
 client.on('ready', () => {
@@ -22,6 +23,9 @@ client.on('interactionCreate', async interaction => {
   }
   if (interaction.commandName === 'dynmap'){
     dynmap.execute(interaction);
+  }
+  if (interaction.commandName === 'minecraft'){
+    minecraft.execute(interaction);
   }
 });
 

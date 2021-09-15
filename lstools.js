@@ -6,7 +6,8 @@ const { clientId, guildId, token } = require('./config.json');
 const commands = [
 	new SlashCommandBuilder().setName('agent').setDescription('Returns a random valorant agent'),
 	new SlashCommandBuilder().setName('rank').setDescription('Rank?'),
-	new SlashCommandBuilder().setName('dynmap').setDescription('Returns the Minecraft Dynmap link')
+	new SlashCommandBuilder().setName('dynmap').setDescription('Returns the Minecraft Dynmap link'),
+	new SlashCommandBuilder().setName('minecraft').setDescription('Minecraft server information')
 ]
 	.map(command => command.toJSON());
 
