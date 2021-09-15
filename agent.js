@@ -10,7 +10,7 @@ const randomAgent = function () {
     list.push({name: "Cypher", color: "#e3d586", imgUrl: "https://static.wikia.nocookie.net/valorant/images/8/88/Cypher_icon.png"});
     list.push({name: "Sova", color: "#86cfe3", imgUrl: "https://static.wikia.nocookie.net/valorant/images/4/49/Sova_icon.png"});
     list.push({name: "Sage", color: "#6ee4ff", imgUrl: "https://static.wikia.nocookie.net/valorant/images/7/74/Sage_icon.png"});
-    list.push({name: "Pheonix", color: "#ffad29", imgUrl: "https://static.wikia.nocookie.net/valorant/images/1/14/Phoenix_icon.png"});
+    list.push({name: "Phoenix", color: "#ffad29", imgUrl: "https://static.wikia.nocookie.net/valorant/images/1/14/Phoenix_icon.png"});
     list.push({name: "Jett", color: "#f2ffff", imgUrl: "https://static.wikia.nocookie.net/valorant/images/3/35/Jett_icon.png"});
     list.push({name: "Reyna", color: "#ba1eb5", imgUrl: "https://static.wikia.nocookie.net/valorant/images/b/b0/Reyna_icon.png"});
     list.push({name: "Raze", color: "#992420", imgUrl: "https://static.wikia.nocookie.net/valorant/images/9/9c/Raze_icon.png"});
